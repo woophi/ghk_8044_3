@@ -72,6 +72,7 @@ const bannerCell = style({
   border: '1px solid #F2F3F5',
   borderRadius: '24px',
   padding: '1rem',
+  textAlign: 'left',
 });
 
 const slideAch = style({
