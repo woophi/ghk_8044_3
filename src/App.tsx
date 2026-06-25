@@ -44,7 +44,7 @@ export const App = () => {
             </Typography.Text>
           </div>
           <img src={hbImg} alt="HB" width="100%" height={260} style={{ objectFit: 'contain' }} />
-          <div style={{ padding: '0 1rem' }}>
+          <div style={{ padding: '0 1rem', width: '100%' }}>
             <PureCell className={appSt.bannerCell}>
               <PureCell.Content>
                 <PureCell.Main>
