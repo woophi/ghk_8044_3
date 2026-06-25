@@ -16,13 +16,14 @@ const container = style({
 
 const boxHero = style({
   display: 'flex',
-  padding: '1rem 20px 20px',
+  padding: '1rem 0 20px',
   flexDirection: 'column',
   gap: '1rem',
   borderRadius: '0 0 2rem 2rem',
   backgroundColor: '#FFFFFF',
   textAlign: 'center',
   overflow: 'hidden',
+  alignItems: 'center',
 });
 
 const row = style({

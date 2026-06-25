@@ -43,25 +43,21 @@ export const App = () => {
               Стань лучшим среди Альфы
             </Typography.Text>
           </div>
-          <img
-            src={hbImg}
-            alt="HB"
-            width="100%"
-            height={260}
-            style={{ objectFit: 'cover', transform: 'scale(1.1)', margin: '-1rem 0 1rem' }}
-          />
-          <PureCell className={appSt.bannerCell}>
-            <PureCell.Content>
-              <PureCell.Main>
-                <Typography.Text view="primary-small" color="secondary">
-                  Прогрессируйте при помощи классической системы обучения
-                </Typography.Text>
-              </PureCell.Main>
-            </PureCell.Content>
-            <PureCell.Graphics verticalAlign="center">
-              <ExclamationCircleMIcon color="#898991" />
-            </PureCell.Graphics>
-          </PureCell>
+          <img src={hbImg} alt="HB" width="100%" height={260} style={{ objectFit: 'contain' }} />
+          <div style={{ padding: '0 1rem' }}>
+            <PureCell className={appSt.bannerCell}>
+              <PureCell.Content>
+                <PureCell.Main>
+                  <Typography.Text view="primary-small" color="secondary">
+                    Прогрессируйте при помощи классической системы обучения
+                  </Typography.Text>
+                </PureCell.Main>
+              </PureCell.Content>
+              <PureCell.Graphics verticalAlign="center">
+                <ExclamationCircleMIcon color="#898991" />
+              </PureCell.Graphics>
+            </PureCell>
+          </div>
         </div>
 
         <div style={{ marginLeft: '20px' }}>
